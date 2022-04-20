@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06049B"
+    tools:context=".addFaculty">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:background="#364EFC"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Faculty"
+            android:textColor="#000"
+            android:textSize="36sp"
+            android:id="@+id/textViewFaculty"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="#fff"
+            android:hint="Enter Faculty Code"
+            android:textColor="#000" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#fff"
+            android:hint="Enter Faculty Name"
+
+            />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#fff"
+            android:hint="Enter Faculty Phone"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/department"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Save"
+            android:textSize="36sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

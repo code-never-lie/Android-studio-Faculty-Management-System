@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06049B"
+    tools:context=".FacultyPanel">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="#364EFC"
+        android:layout_margin="30dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/buttonAddFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Add Faculty"
+            android:textSize="36sp"
+            />
+        <Button
+            android:id="@+id/buttonViewFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="View Faculty"
+            android:textSize="36sp"
+            />
+
+        <Button
+            android:id="@+id/buttonFindFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Find Faculty"
+            android:textSize="36sp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

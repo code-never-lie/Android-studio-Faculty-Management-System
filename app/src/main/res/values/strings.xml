@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">firebaseLoginSignUp</string>
+    <string name="user_sign_in">User Sign in</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <array name="department">
+        <item>Select Department</item>
+        <item>SST</item>
+        <item>HTI</item>
+        <item>COHORT</item>
+        <item>DPT</item>
+    </array>
+
+
+    <array name="Classrooms">
+        <item>Select Class Room</item>
+        <item>STD-401</item>
+        <item>STD-402</item>
+        <item>STD-403</item>
+        <item>STD-404</item>
+        <item>STD-405</item>
+    </array>
+    <string name="title_activity_track_faculty">Map</string>
+
+</resources>

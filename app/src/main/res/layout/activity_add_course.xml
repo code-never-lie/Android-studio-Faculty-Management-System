@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06049B"
+    tools:context=".AddCourse">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:background="#364EFC"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Courses"
+            android:textColor="#000"
+            android:textSize="36sp"
+            android:id="@+id/textViewFaculty"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+
+            android:id="@+id/editTextCourseCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter Course Code"
+            android:padding="10dp"
+            android:background="#fff"
+            android:textColor="#000" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#fff"
+            android:hint="Enter Course Name"
+
+            />
+
+
+        <Spinner
+            android:id="@+id/spinnerAssignTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinnerClassRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:entries="@array/Classrooms"
+
+            />
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/buttonSaveCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Save"
+            android:textSize="36sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
